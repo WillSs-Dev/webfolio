@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   background: #3b413c;
-  height: 80vh;
-  padding: 0 128px;
+  height: 75vh;
+  padding: 60px 128px 0;
 `;
 
 export const Presentation = styled.div`
