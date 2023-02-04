@@ -33,7 +33,7 @@ export const Presentation = styled.div`
 
   > h3 {
     color: #ffff;
-    font-size: 40px;
+    font-size: 41px;
     font-weight: normal;
   }
 
