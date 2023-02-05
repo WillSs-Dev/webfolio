@@ -8,7 +8,8 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   position: fixed;
-
+  z-index: 99;
+  
   > h3 {
     color: #77D8B9;
     font-weight: bold;
