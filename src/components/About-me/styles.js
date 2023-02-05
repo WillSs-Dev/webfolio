@@ -4,6 +4,12 @@ export const Container = styled.section`
   background: #3b413c;
   height: 75vh;
   padding: 60px 128px 0;
+  display: flex;
+  justify-content: space-between;
+
+  > img {
+    scale: 0.9;
+  }
 `;
 
 export const Presentation = styled.div`
