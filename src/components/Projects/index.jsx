@@ -1,4 +1,5 @@
-import { Container } from "./styles";
+import { Container, ProjectsGrid } from "./styles";
+import { projects } from '../../data/index';
 
 const Projects = () => {
   return (
@@ -6,6 +7,12 @@ const Projects = () => {
       <div>
         <h2>PROJECTS:</h2>
       </div>
+      <ProjectsGrid>
+        <div>
+          <img src={projects[0].thumbnail} alt=""/>
+          <div />
+        </div>
+      </ProjectsGrid>
     </Container>
   );
 };
