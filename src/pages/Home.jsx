@@ -1,14 +1,16 @@
 import About_Me from "../components/About-me";
 import Contact_me from "../components/Contact-me";
 import Header from "../components/Header";
-// import Projects from "../components/Projects";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills/indes";
 
 const Home = () => {
   return (
     <>
       <Header />
       <About_Me />
-      {/* <Projects /> */}
+      <Projects />
+      <Skills />
       <Contact_me />
     </>
   );
