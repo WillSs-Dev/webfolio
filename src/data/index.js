@@ -5,7 +5,7 @@ export const projects = [
     skills: ["react", "redux", "styled-components"],
   },
   {
-    name: "Gaming Store",
+    name: "Gaming Space",
     thumbnail: "https://i.ibb.co/445Mwf0/Screenshot-5.png",
     skills: ["react", "redux", "mui", "react-router-dom"],
   },
