@@ -6,7 +6,8 @@ import reactRouterDom from '../images/React-Router-DOM.png';
 import html from '../images/HTML.png';
 import css from '../images/CSS.png';
 import javascript from '../images/Javascript.png';
-
+import bootstrap from '../images/Bootstrap.png';
+import tailwind from '../images/Tailwind.png';
 
 const getImages = {
   react,
@@ -17,6 +18,8 @@ const getImages = {
   html,
   css,
   javascript,
+  bootstrap,
+  tailwind
 };
 
 export default getImages;
