@@ -1,5 +1,6 @@
 import { Container, ProjectsGrid } from "./styles";
-import { projects } from '../../data/index';
+import { projects } from "../../data/index";
+import ProjectCard from "./ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (
@@ -8,10 +9,9 @@ const Projects = () => {
         <h2>PROJECTS:</h2>
       </div>
       <ProjectsGrid>
-        <div>
-          <img src={projects[0].thumbnail} alt=""/>
-          <div />
-        </div>
+        {projects.map((project) => (
+          <ProjectCard project={project} key={project.name} />
+        ))}
       </ProjectsGrid>
     </Container>
   );
