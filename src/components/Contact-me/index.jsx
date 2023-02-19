@@ -5,7 +5,7 @@ import mailIcon from "../../images/Mail.png";
 
 const Contact_me = () => {
   return (
-    <Container>
+    <Container id='contact-me'>
       <div>
         <h2>CONTACT ME:</h2>
       </div>

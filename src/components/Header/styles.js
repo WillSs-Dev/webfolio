@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   background: #272828;
-  width: 100vW;
-  height: 10vH;
+  width: 100vw;
+  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   z-index: 99;
-  
+
   > h3 {
-    color: #77D8B9;
+    color: #77d8b9;
     font-weight: bold;
     font-size: 35px;
     margin-left: 108px;
@@ -26,5 +26,12 @@ export const Container = styled.header`
     margin-right: 108px;
     list-style: none;
     color: #fff;
-}
+    
+    > li {
+      > a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
 `;

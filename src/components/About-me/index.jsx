@@ -1,10 +1,9 @@
 import { Container, Presentation } from "./styles";
-import willPicture from '../../images/willian.png'
-
+import willPicture from "../../images/willian.png";
 
 const About_Me = () => {
   return (
-    <Container>
+    <Container id="about-me">
       <img src={willPicture} alt="Willian Silva" />
       <Presentation>
         <div>

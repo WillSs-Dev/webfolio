@@ -4,7 +4,7 @@ import { Container } from "./styles";
 
 const Skills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <div>
         <h2>Skills:</h2>
       </div>
