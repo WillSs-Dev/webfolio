@@ -19,15 +19,12 @@ export const Container = styled.header`
 
   > ul {
     display: flex;
-    color: #ffff;
     font-weight: bold;
     font-size: 20px;
     letter-spacing: 3px;
     gap: 35px;
     margin-right: 108px;
-
-    > li {
-      list-style: none;
-    }
-  }
+    list-style: none;
+    color: #fff;
+}
 `;
