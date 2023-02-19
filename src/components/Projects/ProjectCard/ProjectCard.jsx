@@ -14,11 +14,17 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <Container showName={grow} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <Container
+      showName={grow}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+    >
       <div>
         <h3>{project.name}</h3>
       </div>
-      <img src={project.thumbnail} alt={`${project.name} screenshot`} />
+      <a href={project.url} target="_blank" rel="noreferrer">
+        <img src={project.thumbnail} alt={`${project.name} screenshot`} />
+      </a>
       <div>
         {project.skills.map((skill) => (
           <div key={skill}>

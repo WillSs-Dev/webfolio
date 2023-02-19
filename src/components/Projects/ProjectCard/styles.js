@@ -7,7 +7,7 @@ export const Container = styled.div`
   position: relative;
   border-radius: 8px 8px 0 0;
   transition: 0.3s all;
-  scale: ${({ showName }) => showName ? 1.05 : 1};
+  scale: ${({ showName }) => (showName ? 1.05 : 1)};
 
   > :first-child {
     background: rgba(59, 65, 60, 0.75);
@@ -25,9 +25,11 @@ export const Container = styled.div`
     }
   }
 
-  > img {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
+  > a {
+    > img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
   }
 
   > :last-child {
