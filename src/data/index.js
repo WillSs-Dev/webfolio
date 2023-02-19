@@ -28,10 +28,6 @@ export const forntEndSkills = [
     icon: getImages["css"],
   },
   {
-    name: "JavaScript",
-    icon: getImages["javascript"],
-  },
-  {
     name: "React",
     icon: getImages["react"],
   },
