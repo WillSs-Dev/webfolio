@@ -18,7 +18,7 @@ export const projects = [
   },
 ];
 
-export const skills = [
+export const forntEndSkills = [
   {
     name: "HTML",
     icon: getImages["html"],
@@ -60,3 +60,30 @@ export const skills = [
     icon: getImages["styled-components"],
   },
 ];
+
+export const backEndSkills = [
+  {
+    name: "Node",
+    icon: getImages["node"],
+  },
+  {
+    name: "Express",
+    icon: getImages["express"],
+  },
+  {
+    name: "MongoDB",
+    icon: getImages["mongodb"],
+  },
+  {
+    name: "Mongoose",
+    icon: getImages["mongoose"],
+  },
+  {
+    name: "MySQL",
+    icon: getImages["mysql"],
+  },
+  {
+    name: "Sequelize",
+    icon: getImages["sequelize"],
+  },
+]
