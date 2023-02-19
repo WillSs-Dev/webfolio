@@ -8,9 +8,11 @@ export const Container = styled.div`
   border-radius: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  padding: 25px;
+  padding: 20px;
   justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-self: center;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 `;

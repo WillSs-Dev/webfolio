@@ -1,4 +1,4 @@
-import { forntEndSkills } from "../../data";
+import { forntEndSkills, backEndSkills } from "../../data";
 import SkillsContainer from "./SkillsContainer/SkillsContainer";
 import { Container } from "./styles";
 
@@ -14,7 +14,7 @@ const Skills = () => {
       </div>
       <div>
         <SkillsContainer skills={forntEndSkills} />
-        <SkillsContainer skills={[]} />
+        <SkillsContainer skills={backEndSkills} />
       </div>
     </Container>
   );

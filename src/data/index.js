@@ -60,7 +60,7 @@ export const forntEndSkills = [
 
 export const backEndSkills = [
   {
-    name: "Node",
+    name: "Node.JS",
     icon: getImages["node"],
   },
   {

@@ -3,16 +3,18 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: max-content;
   height: 60px;
+  width: ${({ isOpen }) => (isOpen ? '180px' : '60px')};
   background: #181818;
   border-radius: 20px;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 
   > img {
-    width: 60px;
+    max-height: 60px;
+    max-width: 60px;
   }
 
   > h4 {

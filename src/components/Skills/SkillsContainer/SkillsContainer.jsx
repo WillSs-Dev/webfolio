@@ -16,7 +16,7 @@ const SkillsContainer = ({ skills }) => {
   return (
     <Container isFocused={isFocused} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       {skills.map((skill) => (
-        <SkillCard key={skill.name} skill={skill}/>
+        <SkillCard key={skill.name} skill={skill} />
       ))}
     </Container>
   );
