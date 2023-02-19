@@ -87,3 +87,30 @@ export const backEndSkills = [
     icon: getImages["sequelize"],
   },
 ]
+
+export const sections = [
+  {
+    name: "ABOUT ME",
+    ref: "#about-me",
+    start: 0,
+    end: 350,
+  },
+  {
+    name: "PROJECTS",
+    ref: "#projects",
+    start: 350,
+    end: 700,
+  },
+  {
+    name: "SKILLS",
+    ref: "#skills",
+    start: 700,
+    end: 1000,
+  },
+  {
+    name: "CONTACT ME",
+    ref: "#contact-me",
+    start: 1000,
+    end: 1600,
+  },
+];

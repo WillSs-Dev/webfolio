@@ -1,22 +1,24 @@
+import { useEffect, useState } from "react";
+import ListItem from "./ListItem/ListItem";
 import { Container } from "./styles";
+import { sections } from "../../data";
 
 const Header = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScrollPosition(window.scrollY);
+    });
+  });
+
   return (
     <Container>
       <h3>Web-Folio</h3>
       <ul>
-        <li>
-          <a href="#about-me">ABOUT ME</a>
-        </li>
-        <li>
-          <a href="#projects">PROJECTS</a>
-        </li>
-        <li>
-          <a href="#skills">SKILLS</a>
-        </li>
-        <li>
-          <a href="#contact-me">CONTACT ME</a>
-        </li>
+        {sections.map((section) => (
+          <ListItem section={section} key={section.name} scrollPosition={scrollPosition}/>
+        ))}
       </ul>
     </Container>
   );

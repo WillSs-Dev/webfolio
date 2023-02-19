@@ -26,12 +26,5 @@ export const Container = styled.header`
     margin-right: 108px;
     list-style: none;
     color: #fff;
-    
-    > li {
-      > a {
-        text-decoration: none;
-        color: #fff;
-      }
-    }
   }
 `;
