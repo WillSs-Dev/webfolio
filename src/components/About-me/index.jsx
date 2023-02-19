@@ -13,10 +13,10 @@ const About_Me = () => {
         <h3>Web Developer</h3>
         <hr />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iusto
-          optio corporis sit sint ullam laboriosam quod. Obcaecati ab quibusdam
-          fugiat facere. Veritatis id, corrupti adipisci error explicabo
-          laboriosam temporibus?
+        I&apos;m a full-stack developer with a background in graphic design and multimedia production. After two years in the field, I discovered my passion for technology. 
+        </p>
+        <p>
+        With my skills in front-end and back-end development, I&apos;m dedicated to developing innovative solutions to make a difference in people&apos;s lives.
         </p>
       </Presentation>
     </Container>

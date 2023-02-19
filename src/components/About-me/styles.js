@@ -52,7 +52,7 @@ export const Presentation = styled.div`
   }
 
   p {
-    font-size: 22px;
+    font-size: 24px;
     color: #ffff;
     font-weight: lighter;
     width: 597px;
