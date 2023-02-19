@@ -27,17 +27,18 @@ export const forntEndSkills = [
     name: "CSS",
     icon: getImages["css"],
   },
+  
   {
     name: "React",
     icon: getImages["react"],
   },
   {
-    name: "Redux",
-    icon: getImages["redux"],
-  },
-  {
     name: "Material UI",
     icon: getImages["mui"],
+  },
+  {
+    name: "Styled Components",
+    icon: getImages["styled-components"],
   },
   {
     name: "Bootstrap",
@@ -48,12 +49,12 @@ export const forntEndSkills = [
     icon: getImages["tailwind"],
   },
   {
-    name: "React Router DOM",
-    icon: getImages["react-router-dom"],
+    name: "Redux",
+    icon: getImages["redux"],
   },
   {
-    name: "Styled Components",
-    icon: getImages["styled-components"],
+    name: "React Router DOM",
+    icon: getImages["react-router-dom"],
   },
 ];
 
