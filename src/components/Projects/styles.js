@@ -9,6 +9,14 @@ export const Container = styled.section`
   align-items: center;
   gap: 30px;
 
+  @media (max-width: 768px) {
+    height: 68vh;
+  }
+
+  @media (max-width: 580px) {
+    height: 95vh;
+  }
+
   > :first-child {
     background: #fff;
     width: fit-content;
@@ -25,5 +33,14 @@ export const Container = styled.section`
 export const ProjectsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 50px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 580px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
