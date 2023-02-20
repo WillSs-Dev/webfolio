@@ -8,6 +8,11 @@ export const Container = styled.section`
   align-items: center;
   flex-direction: column;
 
+  @media (max-width: 768px) {
+    padding: 25px 20px;
+    height: fit-content;
+  }
+
   > :first-child {
     background: #fff;
     width: fit-content;
@@ -25,12 +30,17 @@ export const Container = styled.section`
     justify-content: space-between;
     width: 65%;
     margin-bottom: 2%;
-    
+    margin-top: 2%;
+
+    @media (max-width: 580px) {
+      display: none;
+    }
+
     > h3 {
       font-size: 38px;
       margin-bottom: 10px;
-      color: #77D8B9;
-      text-decoration: underline #fff; 
+      color: #77d8b9;
+      text-decoration: underline #fff;
       text-underline-offset: 10px;
     }
 
@@ -43,5 +53,11 @@ export const Container = styled.section`
     display: flex;
     justify-content: space-around;
     width: 100%;
+    gap: 25px;
+
+    @media (max-width: 580px) {
+      flex-direction: column;
+      margin-top: 25px;
+    }
   }
 `;
