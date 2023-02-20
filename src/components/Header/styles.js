@@ -15,6 +15,18 @@ export const Container = styled.header`
     font-weight: bold;
     font-size: 35px;
     margin-left: 108px;
+
+    @media (max-width: 920px) {
+      font-size: 24px;
+      width: 150px;
+      margin-left: 65px;
+      margin-right: 30px;
+    }
+
+    @media (max-width: 580px) {
+      font-size: 20px;
+      margin-left: 30px;
+    }
   }
 
   > ul {
@@ -26,5 +38,15 @@ export const Container = styled.header`
     margin-right: 108px;
     list-style: none;
     color: #fff;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+      margin-right: 30px;
+    }
+
+    @media (max-width: 580px) {
+      font-size: 14px;
+      margin-right: 30px;
+    }
   }
 `;
