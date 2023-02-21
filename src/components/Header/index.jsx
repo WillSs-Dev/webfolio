@@ -14,7 +14,7 @@ const Header = () => {
 
   return (
     <Container>
-      <h3>Web-Folio</h3>
+      <h3>{'<Willian/>'}</h3>
       <ul>
         {sections.map((section) => (
           <ListItem section={section} key={section.name} scrollPosition={scrollPosition}/>
