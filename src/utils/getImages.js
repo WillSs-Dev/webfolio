@@ -14,6 +14,7 @@ import mongoose from '../images/Mongoose.png';
 import mongodb from '../images/MongoDB.png';
 import mysql from '../images/MySQL.png';
 import sequelize from '../images/Sequelize.png';
+import php from '../images/PHP.png';
 
 const getImages = {
   react,
@@ -32,6 +33,7 @@ const getImages = {
   mongodb,
   mysql,
   sequelize,
+  php,
 };
 
 export default getImages;

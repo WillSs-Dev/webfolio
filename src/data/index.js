@@ -86,6 +86,10 @@ export const backEndSkills = [
     name: "Sequelize",
     icon: getImages["sequelize"],
   },
+  {
+    name: "PHP",
+    icon: getImages["php"],
+  }
 ]
 
 export const sections = [
